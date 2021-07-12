@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @inscricao.nome %>
+</p>
+
+<p>
+  <strong>Cpf:</strong>
+  <%= @inscricao.cpf %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @inscricao.email %>
+</p>
+
+<p>
+  <strong>Datanascimento:</strong>
+  <%= @inscricao.datanascimento %>
+</p>
+
+<p>
+  <strong>Evento:</strong>
+  <%= @inscricao.evento_id %>
+</p>
+
+<%= link_to 'Edit', edit_inscricao_path(@inscricao) %> |
+<%= link_to 'Back', inscricaos_path %>
