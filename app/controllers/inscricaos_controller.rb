@@ -5,7 +5,7 @@ class InscricaosController < ApplicationController
   def index
     @inscricaos = Inscricao.all
   end
-
+  
   # GET /inscricaos/1 or /inscricaos/1.json
   def show
   end
